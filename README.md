@@ -1,4 +1,4 @@
-# Bio_Industries
+# Bio Industries
 
 Main feature of the mod is to introduce a way to produce raw-wood and adds a lot of uses for that wood you produce.
 Core:
