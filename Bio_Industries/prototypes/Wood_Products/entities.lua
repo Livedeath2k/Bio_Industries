@@ -925,7 +925,7 @@ data:extend({
   },
 })
 
----- Rail straight (Wood)
+---- straight (Wood)
 data:extend({
   {
     type = "straight-rail",
@@ -1095,6 +1095,7 @@ data:extend({
     collision_mask = BioInd.RAIL_MASK,
     minable = {mining_time = 0.5, result = "bi-rail-power"},
     max_health = 60,
+    resistances = {{type = "fire", percent = 100}},
     corpse = "straight-rail-remnants",
     collision_box = {{-0.7, -0.8}, {0.7, 0.8}},
     selection_box = {{-0.7, -0.8}, {0.7, 0.8}},
@@ -1125,6 +1126,7 @@ data:extend({
     collision_mask = BioInd.RAIL_MASK,
     minable = {mining_time = 0.5, result = "bi-rail-power", count = 4},
     max_health = 120,
+    resistances = {{type = "fire", percent = 100}},
     corpse = "curved-rail-remnants",
     collision_box = {{-0.75, -0.55}, {0.75, 1.6}},
     secondary_collision_box = {{-0.65, -2.43}, {0.65, 2.43}},
